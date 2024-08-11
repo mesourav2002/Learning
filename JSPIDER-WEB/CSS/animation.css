@@ -1,0 +1,181 @@
+.box {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid none;
+  background-color: aqua;
+  animation-name: sourav;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: auto;
+}
+
+@keyframes sourav {
+  0% {
+    background-color: aquamarine;
+  }
+
+  
+  100% {
+    background-color: yellow;
+    /* border-radius: 50%; */
+  }
+}
+
+.box1 {
+  margin: auto;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid none;
+  background-color: aqua;
+  animation-name: rect;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rect {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: greenyellow;
+    width: 20rem;
+  }
+}
+
+.box2 {
+  margin: auto;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid none;
+  background-color: aqua;
+  animation-name: oval;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes oval {
+  from {
+    background-color: saddlebrown;
+  }
+  to {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 20rem;
+  }
+}
+
+.box3 {
+  margin: auto;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid none;
+  background-color: aqua;
+  animation-name: shape;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shape {
+  0% {
+    border-radius: 0%;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
+
+.box4 {
+  margin: auto;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid none;
+  background-color: aqua;
+  animation-name: sap;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes sap {
+  0% {
+    border-radius: 0%;
+  }
+  25% {
+    border-radius: 0%;
+    width: 20rem;
+  }
+  50% {
+    width: 20rem;
+    border-radius: 50%;
+  }
+  75% {
+    border-radius: 50%;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
+
+/* ---------------------------------- */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.box5 {
+  height: 40rem;
+  width: 30rem;
+  border: 1px solid black;
+  margin: auto;
+  background-color: red;
+  position: relative;
+}
+.box6 {
+  height: 40rem;
+  width: 30rem;
+  border: 1px solid none;
+  margin: auto;
+  background-color: white;
+  border-radius: 90% 0;
+  animation-name: style;
+  animation-iteration-count: infinite;
+}
+form {
+  position: absolute;
+  top: 17rem;
+  left: 10rem;
+}
+input {
+  display: block;
+  height: 2rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+input[type="submit"] {
+  border-radius: 1rem;
+  width: 5rem;
+}
+@keyframes style {
+  0% {
+    border-radius: 0%;
+  }
+  25% {
+    border-radius: 0%;
+    width: 20rem;
+  }
+  50% {
+    width: 20rem;
+    border-radius: 50%;
+  }
+  75% {
+    border-radius: 50%;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}

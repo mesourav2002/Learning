@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+}
+.box,
+.box1,
+.box2 {
+  border: 1px solid none;
+  height: 20rem;
+  width: 20rem;
+  background-color: red;
+  box-shadow: 0 0 0.5rem black;
+
+  animation-name: first;
+  animation-duration: 5s;
+  animation-delay: 2s;
+
+  /* ------- Display Properties  ----- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  height: 10rem;
+  width: 10rem;
+  background-color: green;
+  animation-delay: 7s;
+}
+.box2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: blue;
+  animation-delay: 12s;
+}
+
+@keyframes first {
+  0% {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    position: relative;
+    top: 0px;
+    left: 400px;
+  }
+  50% {
+    position: relative;
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    position: relative;
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+}

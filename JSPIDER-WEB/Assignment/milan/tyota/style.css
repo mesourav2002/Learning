@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.header {
+  border: 1px solid none;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  background-color: antiquewhite;
+}
+.nav1,
+.nav2,
+hr {
+  width: 80%;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  padding: 0 2vw;
+}
+.nav1 .logout {
+  display: flex;
+  gap: 3vw;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  font-family: Arial, sans-serif;
+}
+.nav2 div {
+  cursor: pointer;
+}
+.container {
+  border: 1px solid none;
+  height: calc(100% - 150px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 1vw;
+  gap: 5vw;
+  background-color: rgb(230, 230, 229);
+}
+.ot-request,
+.name-dept,
+.reasons {
+  width: 95%;
+}
+.name-dept {
+  display: flex;
+  gap: 2vw;
+}
+.name-dept div {
+  width: 50%;
+}
+.name-dept input {
+  width: 95%;
+  height: 2vw;
+  border: none;
+}
+
+.date-hour {
+  width: 70%;
+  display: flex;
+  gap: 1vw;
+}
+.date-hour div {
+  width: 50%;
+}
+.date-hour input {
+  width: 95%;
+  height: 2vw;
+  border: none;
+}
+.reasons input {
+  height: 6vw;
+  width: 100%;
+  border: none;
+}

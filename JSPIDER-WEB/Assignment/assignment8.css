@@ -1,0 +1,35 @@
+* {
+  background-color: rgb(192, 192, 192);
+}
+.container {
+  width: 40rem;
+  height: 35rem;
+  margin: auto;
+  box-shadow: 0 0 10px black;
+  margin-top: 10rem;
+}
+.text {
+  font-size: 2rem;
+  color: rgb(25, 0, 255);
+  display: flex;
+  justify-content: center;
+  font-family: Times, serif;
+  padding-top: 2rem;
+}
+.container1,
+.container2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.photo {
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0 1px 3px black;
+}
+.photo:hover {
+  opacity: 0.4;
+  cursor: pointer;
+  width: 11rem;
+  height: 11rem;
+}

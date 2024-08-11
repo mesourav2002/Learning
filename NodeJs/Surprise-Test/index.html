@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/11d6d64daf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div id="photo" class="left">
+        <img src="./assets/b5.jpg" alt="" />
+        <div class="chrome">
+          <div class="google">Google</div>
+          <div class="text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Google or type a URL" />
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-qrcode"></i>
+          </div>
+        </div>
+        <button class="pen" onclick="openmenu()" ondblclick="closemenu()">
+          <i class="fa-solid fa-pen"></i>
+        </button>
+      </div>
+      <div id="right">
+        <div class="rightimgbox">
+          <div class="images">
+            <div class="img">
+              <img src="./assets/b1.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b2.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b3.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+          </div>
+          <div class="images">
+            <div class="img">
+              <img src="./assets/b4.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b5.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b6.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+          </div>
+          <div class="images">
+            <div class="img">
+              <img src="./assets/b7.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b8.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+            <div class="img">
+              <img src="./assets/b1.jpg" alt="" onclick="photoClick(event)" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <script src="./App.js"></script>
+  </body>
+</html>

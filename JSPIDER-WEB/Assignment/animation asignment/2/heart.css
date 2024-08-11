@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: none;
+}
+
+.text {
+  font-size: 10rem;
+  color: lightseagreen;
+  text-align: center;
+  margin: 5rem 0;
+
+  animation: sourav 1s infinite;
+}
+@media screen {
+  
+}
+
+/* @keyframes sourav {
+  0%,
+  100% {
+    
+    transform: scale(0);
+  }
+  50% {
+    font-size: small;
+    transform: scale(1.5);
+  }
+} */
+
+.box {
+  border: none;
+  height: 40rem;
+  width: 30rem;
+  background-color: black;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  position: absolute;
+  height: 10rem;
+  width: 5rem;
+  border: none;
+  animation: rotate 4s infinite;
+}
+.box1 {
+  background-color: aqua;
+  animation-delay: 1s;
+}
+.box2 {
+  background-color: red;
+  animation-delay: 2s;
+}
+.box3 {
+  background-color: yellow;
+  animation-delay: 3s;
+}
+.box4 {
+  background-color: green;
+  animation-delay: 4s;
+}
+
+@keyframes rotate {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 25rem;
+  }
+  50% {
+    top: 30rem;
+    left: 25rem;
+  }
+  75% {
+    top: 30rem;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}

@@ -1,0 +1,95 @@
+.container-1 {
+  border: 1px solid none;
+  height: 42rem;
+  width: 25rem;
+  margin: auto;
+  box-shadow: 0 0 0.2rem black;
+  
+}
+.container-2 {
+  border: 1px solid none;
+  height: 6rem;
+  width: 25rem;
+  background-color: rgb(14, 134, 124);
+  color: white;
+}
+.container-2-first {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.container-2-second {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 1rem 0 1rem;
+  font-family: Segoe UI;
+  position: sticky;
+  top: 0;
+}
+.whatsapp {
+  margin-left: 0.7rem;
+  font-size: larger;
+  font-family: Segoe UI;
+}
+.whatsapp:hover {
+  cursor: pointer;
+}
+.nav-icon:hover {
+  cursor: pointer;
+}
+.a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.nav-icons {
+  display: flex;
+}
+.nav-icon {
+  margin-right: 1.3rem;
+}
+.container-3 {
+  padding: 1rem;
+  height: 34rem;
+  background-color: rgb(119, 119, 119);
+  position: relative;
+  overflow: auto;
+  
+}
+.inside3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.photo {
+  border: 0.1rem solid none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.details {
+  margin-right: 7rem;
+}
+.name {
+  font-weight: bolder;
+  color: white;
+  margin-top: 10px;
+}
+.number {
+  font-weight: lighter;
+  color: rgb(201, 201, 201);
+  margin-top: 4px;
+}
+.lastseen {
+  font-size: small;
+  color: rgb(201, 201, 201);
+  margin-top: 1.5rem;
+}
+.message {
+  padding: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 0.7rem;
+  background-color: rgb(3, 168, 154);
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a81755e1.css",
+    "main.js": "/static/js/main.d6781243.js",
+    "static/media/1.png": "/static/media/1.15d18755c6134a138654.png",
+    "static/media/sourav.png": "/static/media/sourav.006ee892165e118a3013.png",
+    "static/media/3.png": "/static/media/3.ef12507d0c168eb3f9bf.png",
+    "static/media/Logo.png": "/static/media/Logo.7f2f7857606cae18c86d.png",
+    "static/media/2.png": "/static/media/2.5821a49b7fda89e4474e.png",
+    "static/media/4.png": "/static/media/4.ef98413a5b8b2d982094.png",
+    "static/media/ui-design.png": "/static/media/ui-design.889fc23e3c2b44685b04.png",
+    "static/media/5.png": "/static/media/5.2d197e27e137802a324e.png",
+    "static/media/6.png": "/static/media/6.a95d90144610944a03ad.png",
+    "static/media/web-design.png": "/static/media/web-design.e62225f479c952a7388d.png",
+    "static/media/menu.png": "/static/media/menu.217c3648a30169de418f.png",
+    "static/media/app-design.png": "/static/media/app-design.d0bd0ed2d8f13bf30abc.png",
+    "static/media/facebook.png": "/static/media/facebook.65062c0e6678602327eb.png",
+    "static/media/instagram.png": "/static/media/instagram.5eef2a1d661a1df3127a.png",
+    "static/media/twitter.png": "/static/media/twitter.e768a27d71bb7a95517b.png",
+    "index.html": "/index.html",
+    "main.a81755e1.css.map": "/static/css/main.a81755e1.css.map",
+    "main.d6781243.js.map": "/static/js/main.d6781243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a81755e1.css",
+    "static/js/main.d6781243.js"
+  ]
+}

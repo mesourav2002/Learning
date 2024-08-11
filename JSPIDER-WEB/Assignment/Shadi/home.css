@@ -1,0 +1,394 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-home {
+  width: 100%;
+  height: 38rem;
+  position: relative;
+}
+.bg-home img {
+  width: 100%;
+  height: 38rem;
+}
+.login-btns {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.login-btn button {
+  width: 5rem;
+  background-color: #6d5e63;
+}
+.join-btn button {
+  width: 7rem;
+  background-color: #368d87;
+}
+button {
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  border: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.trademark {
+  border: none;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trademark span {
+  background-color: #ff716f;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  gap: 2rem;
+}
+.content {
+  width: fit-content;
+  color: #6d5e63;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+}
+.icon {
+  width: 20%;
+}
+
+.icon img {
+  width: 100%;
+}
+.browser {
+  color: #d20200;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  width: 25rem;
+  font-family: sans-serif;
+}
+.shadi-details {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  height: 14rem;
+  width: 70%;
+  margin: 4rem auto;
+}
+.religion {
+  width: 32%;
+  border: none;
+  box-shadow: 0px 0px 10px #eeeeee;
+  border-radius: 1rem;
+  background-color: #eeeeee;
+}
+.caste {
+  width: 32%;
+  border: none;
+  box-shadow: 0px 0px 10px #eeeeee;
+  border-radius: 1rem;
+  background-color: #eeeeee;
+}
+.state {
+  width: 32%;
+  border: none;
+  box-shadow: 0px 0px 10px #eeeeee;
+  border-radius: 1rem;
+  background-color: #eeeeee;
+}
+.shadi-details .heading {
+  text-align: center;
+  margin: 1rem auto;
+  color: #666;
+  font-weight: bolder;
+}
+.shadi-details .links {
+  color: #337ab7;
+  border: none;
+  height: 7rem;
+  width: 70%;
+  margin: auto;
+}
+.links a {
+  color: #337ab7;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: small;
+}
+.shadi-details .read-more {
+  background-color: #62b9b0;
+  padding: 1rem 2rem;
+  width: fit-content;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+.shadi-details .read-more a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #337ab7;
+  font-size: small;
+}
+.bg-wedding {
+  border: none;
+  height: 55rem;
+  background-image: url(./assest/bg-wedding.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prime {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium";
+  margin-top: 2rem;
+}
+.wedding-imgs {
+  border: none;
+  margin-top: 5rem;
+  height: 34rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wedding-img {
+  width: 25%;
+  border: 0.5rem solid #62b9b0;
+}
+.wedding-img img {
+  height: 24rem;
+  width: 100%;
+}
+.wedding-text {
+  color: white;
+  font-family: "Gill Sans";
+  background-color: black;
+  padding: 1rem;
+}
+.wedding-more {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  background-color: black;
+}
+.wedding-more .read-more {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: .5rem;
+}
+.wedding-more .join-now {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+.about-all{
+  margin-top: 2rem;
+}
+th{
+  text-align: left;
+  
+}
+td{
+  font-size: 1rem;
+  color: #666;
+  padding: .4rem;
+}
+th:nth-child(1){
+  width: 40%;
+  text-align: justify;
+}
+table{
+  background-color: #ebebeb;
+  height: 15rem;
+  width: 70%;
+  margin: auto;
+}
+hr{
+  margin-top: .3rem;
+  width: 15%;
+  height: .2rem;
+  background-color: red;
+}
+
+/* --------- */
+
+main-container {
+  width: 100%;
+  height: 65vh;
+}
+.rel-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.rel-heading {
+  border: none;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+  color: grey;
+}
+.rel-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.rel-image {
+  border: none;
+  width: 310px;
+  height: 230px;
+  border-radius: 10px;
+}
+.rel-image img {
+  border-radius: 10px;
+}
+.rel-images img {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-size: cover;
+}
+ 
+.rel-paragraph {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.rel-para {
+  border: none;
+  width: 300px;
+  height: 200px;
+  font-size: 12px;
+  color: gray;
+}
+.rel-para ul {
+  color: black;
+  list-style-position: inside;
+}
+.rel-para h6 {
+  text-align: right;
+  color: #368d87;
+  font-size: 13px;
+}
+.memb-heading {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+.memb-heading span {
+  margin-left: 50px;
+}
+.memb-heading h2 {
+  color: red;
+  font-weight: 700;
+}
+.pro-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pro-paragraph {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pro-para {
+  text-align: justify;
+  width: 500px;
+  font-family: cursive;
+  font-size: 12px;
+}
+.sucess-stories {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.success {
+  border: none;
+  width: 60%;
+  height: 240px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 2px 0px #e5e6e6;
+  border-radius: 15px;
+}
+.success p {
+  line-height: 20px;
+  font-size: 13px;
+  font-family: cursive;
+  text-align: justify;
+  padding: 20px;
+  color: gray;
+}
+.success h6 {
+  padding: 15px;
+}
+.footer {
+  width: 100%;
+  height: 70vh;
+  margin-top: 50px;
+  background-color: #ebebeb;
+}
+.memb-heading .site {
+  display: block;
+  margin-top: 15px;
+}
+.footer-details p {
+  width: 60%;
+  margin: 10px auto;
+  text-align: justify;
+  font-size: 15px;
+  font-family: cursive;
+}
+.last-footer {
+  background-color: red;
+  width: 100%;
+  height: 30vh;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.media p {
+  margin-top: 25px;
+  color: white;
+  font-family: cursive;
+  font-size: 12px;
+}
+.media i {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.copy {
+  margin-left: 40px;
+}
+ .media img{
+  padding-left: 250px;
+ }

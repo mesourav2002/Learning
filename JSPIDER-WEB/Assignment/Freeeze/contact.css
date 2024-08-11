@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1.5rem;
+}
+header {
+  border: 0.1rem solid none;
+  background-color: rgb(209, 209, 209);
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: rgb(87, 87, 86);
+  cursor: pointer;
+}
+li {
+  margin: 0 1rem;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.h {
+  display: flex;
+  margin-left: 3.2rem;
+  list-style-type: none;
+}
+
+.h1,
+.h2 {
+  margin-top: 0px;
+  opacity: 0;
+}
+h2,
+.h1:hover {
+  opacity: 0.5;
+}
+.active {
+  color: rgb(207, 13, 13);
+}
+li:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  width: 7rem;
+  margin: 5px 0 0 0;
+}
+footer {
+  background-color: rgb(221, 58, 58);
+  text-align: center;
+  padding: 3rem;
+  padding-bottom: 8rem;
+}
+.footer {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-icon {
+  margin: 1rem;
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.3rem;
+}
+
+.copyright {
+  font-size: small;
+  color: white;
+  font-family: "Segoe UI";
+}
+.contact {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 2rem;
+  background-color: rgb(199, 199, 15);
+  padding: 1rem;
+  color: white;
+}
+.contact-bg {
+  width: 100%;
+  height: 13rem;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid none;
+}
+form {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+input,
+.btn {
+  display: block;
+}
+
+.left-fc {
+  border: 1px solid none;
+  margin: auto;
+  width: 32rem;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.right-fc {
+  border: 1px solid none;
+  margin: auto;
+  width: 25%;
+  padding: 2rem;
+  background-color: rgb(190, 190, 190);
+}
+.heading-content {
+  font-family: calibri;
+  font-size: 1.5rem;
+  color: red;
+  margin-top: 1rem;
+}
+.head {
+  padding: 0 0 1.5rem 1.5rem;
+}
+.hello {
+  margin: 1rem;
+  padding: 0.4rem;
+  width: 25rem;
+}
+.textarea {
+  margin: 1rem;
+  width: 25rem;
+  height: 15rem;
+}
+.btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 8rem;
+  border: 2px solid rgb(173, 92, 92);
+  background-color: rgb(248, 248, 248);
+  color: rgb(128, 127, 127);
+  font-weight: bolder;
+}
+@media screen and (max-width: 430px) {
+  .left-fc {
+    border: 1px solid none;
+    margin: auto;
+    width: 18rem;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  .textarea {
+    margin: 1rem;
+    width: 18rem;
+    height: 15rem;
+  }
+  .hello {
+    margin: 1rem;
+    padding: 0.4rem;
+    width: 18rem;
+  }
+  .right-fc {
+  border: 1px solid none;
+  margin: auto;
+  width: 70%;
+  padding: 2rem;
+  background-color: rgb(190, 190, 190);
+}
+}

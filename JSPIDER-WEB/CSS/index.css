@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  position: fixed;
+  width: 100%;
+  background-color: brown;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+  top: 0px;
+}
+.container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+    
+}
+img{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    box-shadow: 0 0 11px black;
+}

@@ -1,0 +1,26 @@
+body{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    text-align: center;
+    background: linear-gradient(rgb(250, 160, 175),orange);
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+    outline: solid orange .5px;
+    border-radius: 20px 20px;
+    margin-bottom: 50px;
+}
+button:hover{
+  background: linear-gradient(rgb(250, 160, 175),orange);
+}
+
+.usestate{
+    text-align: center;
+}

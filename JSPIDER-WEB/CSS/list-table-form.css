@@ -1,0 +1,26 @@
+ul {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  /* list-style-image: url(/JSPIDER-WEB/IMAGES/images.png); */
+  list-style-image: radial-gradient(red, yellow, blue);
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 35rem;
+  height: 35rem;
+}
+
+td {
+  text-align: center;
+  width: 25%;
+}
+th:hover {
+ background :  linear-gradient(red , yellow)
+}
+td:hover {
+ background :  linear-gradient(red , black)
+}
+tr:nth-child(){
+  background: red;
+}

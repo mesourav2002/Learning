@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 1px solid none;
+  height: 10rem;
+  width: 10rem;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box1 {
+  background-image: linear-gradient(to right, red, blue, green);
+}
+.box2 {
+  background-image: linear-gradient(orange, white, green);
+  /* to top left /to top right / to bottom left / to buttom right */
+}
+.box3 {
+  background-image: linear-gradient(red, blue, green);
+}
+/* to bottom (default) /left / right / top  */
+
+.box4 {
+  background-image: radial-gradient(red, yellow, rgb(255, 123, 0));
+}
+
+body {
+  height: 100rem;
+}
+.flag {
+  margin-top: 5rem;
+  border: 1px solid none;
+  width: 100%;
+  height: 5rem;
+  background-image: linear-gradient(orange, white, green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: blue;
+}
+.india {
+  border: 1px solid none;
+  height: 20rem;
+  width: 30rem;
+  margin: auto;
+  background-image: linear-gradient(orange, white, green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px black;
+}
+.kflag {
+  border: 1px solid none;
+  width: 100%;
+  height: 5rem;
+  background-image: linear-gradient(orange, white, green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: blue;
+  margin-top: 2rem;
+}
+.karnataka {
+  border: 1px solid none;
+  height: 20rem;
+  width: 30rem;
+  margin: auto;
+  background-image: linear-gradient(yellow 50%, red 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px black;
+}
+.circle {
+  margin: 5rem 0 0 0;
+  border: 1px solid none;
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
+  background-image: conic-gradient(blue, white, blue, white);
+}
+
+/*
+
+A combinator is something that explains the relationship between the selectors.
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+*/
+/* 
+div  p {
+  Desent selector combinator (space)
+  color: aqua;
+} 
+The descendant selector matches all elements that are descendants of a specified element.
+*/
+
+/* 
+div > p {
+  color: aqua;
+}
+
+The child selector selects all elements that are the children of a specified element.
+
+*/
+
+/* div + p {
+  color: aqua;
+} 
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+*/
+
+div ~ p {
+  color: aqua;
+}

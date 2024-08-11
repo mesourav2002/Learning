@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* 
+
+Responsive web design is about creating web pages that look good on all devices!
+
+A responsive web design will automatically adjust for different screen sizes and viewports.
+
+*/
+
+body {
+  background-color: gray;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  body {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 400pxx) and (max-width: 500px) {
+  body {
+    background-color: yellow;
+  }
+}
+input {
+  display: block;
+  margin: 4rem auto;
+  width: 50%;
+  height: 3rem;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+}
+/* .box {
+  border: none;
+  width: 20rem;
+  height: 20rem;
+  background-color: aqua;
+}
+.box1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  body {
+    background: yellow;
+  }
+  .box {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .box1 {
+    display: block;
+  }
+} */
+
+/* .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1,
+.box2,
+.box3 {
+  height: 20rem;
+  width: 20rem;
+  background-color: aqua;
+  margin: 1rem;
+}
+
+@media screen and  (max-width: 900px) {
+  body {
+    background: yellow;
+  }
+  .container {
+    display: block;
+  }
+  .box1 {
+    margin: 1rem auto;
+    height: 10rem;
+    width: 20rem;
+  }
+  .box2 {
+    border-radius: 50%;
+    margin: 1rem auto;
+  }
+  .box3 {
+    margin: 1rem auto;
+    height: 10rem;
+    width: 20rem;
+  }
+} */

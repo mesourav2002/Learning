@@ -1,0 +1,31 @@
+.header {
+  border: 1px solid none;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(lightblue, lightgreen , yellow);
+  font-size: 35px;
+
+  color: rgb(20, 35, 206);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  height: 40vh;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.all{
+    font-size: 20px;
+    font-weight: 600;
+}
+img{
+    opacity: 1;
+}
+img:hover{
+    opacity: .8;
+}

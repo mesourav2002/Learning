@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+}
+/* ----------------------------------------- */
+.container .logo {
+  border: none;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  align-items: end;
+  padding-right: 6vw;
+  padding-top: 25vh;
+}
+.container .logo .logo-name {
+  font-size: 5vw;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(0, 92, 173);
+}
+.logo .product-name {
+  color: rgb(141, 141, 141);
+}
+.logo .product-name span {
+  font-weight: bolder;
+  color: black;
+}
+/* ----------------------------------------------- */
+.container .sign-in {
+  border: none;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+  padding-top: 25vh;
+}
+.container .sign-in h1 {
+  font-size: 2vw;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  width: 100%;
+}
+
+.container .sign-in input {
+  display: block;
+  width: 20vw;
+  height: 3vw;
+  /* margin-top: 1vw; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.sign-in input::placeholder {
+  padding: 0 1vw 3vw;
+}
+.sign-in .signin-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5vw;
+  /* margin-top: 3vw; */
+}
+.sign-in .signin-button button {
+  width: 9.7vw;
+  height: 2vw;
+  background-color: rgb(18, 162, 228);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.container .sign-in .disclaimer {
+  width: 100%;
+  text-align: justify;
+}
+.disclaimer h3 {
+  /* margin-top: 1vw; */
+  color: black;
+  font-size: 1.04vw;
+}
+.disclaimer h4 {
+  margin-top: 1vw;
+
+  font-size: 1vw;
+  color: rgb(77, 77, 77);
+}
+.disclaimer h4 span {
+  color: black;
+  font-size: 1.04vw;
+}
+.sign-in .help {
+  display: flex;
+  justify-content: center;
+}
+.sign-in .help button {
+  width: 7vw;
+  height: 2vw;
+
+  color: black;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------ */
+.container .exit {
+  border: none;
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  justify-content: left;
+  padding-top: 85vh;
+}
+.exit button {
+  width: 7vw;
+  height: 2vw;
+  background-color: red;
+  color: white;
+  border: none;
+}

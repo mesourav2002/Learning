@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>forms</title>
+</head>
+<body>
+    <form > 
+        <fieldset>
+            <legend align="center">Login Details</legend>
+            <label >Name: <sup style="color: red;">*</sup></label>
+            <input type="text" name="fnm" placeholder="Enter First Name" required>
+            <input  type="text" name="lnm" placeholder="Enter Last Name" required>
+            <br><br><br>
+    
+    
+            <label for="">E-mail:<sup style="color: red;">*</sup></label>
+            <input type="email" name="mail" placeholder="Enter E-mail Address">
+    
+    
+            <label for="">Password:<sup style="color: red;">*</sup></label>
+            <input type="password" name="pwd" placeholder="Enter Password">
+            <br><br><br>
+    
+    
+            <label for="" >Age: <sup style="color: red;">*</sup></label>
+            <input type="number" name="Age" placeholder="Enter Age" min="0" max="120">
+            <br><br><br>
+        </fieldset>
+
+
+
+        <label for="">Gender: </label>
+        <label for="M">Male</label>
+        <input type="radio" name="gender" value="male" id="M">
+        <label for="F">Female: </label>
+        <input type="radio" name="gender" value="female" id="F">
+        <label for="O">Others</label>
+        <input type="radio" name="gender" value="others" id="O" disabled>
+        <br><br><br>
+
+
+        <label for="">Language :</label>
+        <label for="E">English </label>
+        <input type="checkbox" name="lang" value="eng" id="E">
+        <label for="H">Hindi </label>
+        <input type="checkbox" name="lang" value="hin" id="H">
+        <label for="T">Tamil </label>
+        <input type="checkbox" name="lang" value="Tam" id="T">
+        <label for="O">others</label>
+        <input type="checkbox" name="lang" value="Oth" id="O" disabled>
+        <br><br><br>
+
+
+        <label for="">Date Of Birth: <sup style="color: red;">*</sup></label>
+        <input type="date" name="DOB">
+        <br><br><br>
+
+
+        <label for="">Time: </label>
+        <input type="time" name="time"><br><br><br> <input type="range">
+        <br><br><br>
+
+
+        <input type="file" name="file">
+        <br><br><br>
+
+
+        <input type="color" name="color">
+        <br><br><br>
+        
+        <label for="">Places</label>
+        <select name="plc" id="" >
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mysore">Mysore</option>
+            <option value="okinawa" selected>Okinawa</option>
+            <option value="shibuya" disabled>Shibuya</option>
+            <option value="vellore">Vellore</option>
+        </select>
+        <br><br><br> 
+        
+        <textarea name="cmnt" id="" cols="30" rows="10" placeholder="Comment Box"></textarea>
+        <br><br><br>
+        
+
+
+        <input type="reset">
+
+
+        <input type="submit" value="Sign up" style="background-color: cadetblue;">
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!--
+            Form:
+                It is used to collect the data from the end user directly from the webpage by using the input field
+                Tags:
+                    > <form> tag is to create the form on the webpage... its paired and its block level tag
+                           Note: Without form tag we cant send submit the data to backend 
+                Attributes used:
+                        > type attribute
+                        > name attribute
+                        > placeholder attribute
+                        > required attribute
+                        > value attribute
+                        > min  attribute
+                        > max attribute
+                Difference between Radio and Checkbox Tag:
+                    Radio button is used to select singlr option & checkbox is used to select multiple option
+                    Checked attribute is used to select default option in radio & checkbox field
+                    Disabled attribute is used to make disabled condition for input field
+                        (when we are using disabled attribute we cant do any operation and we cant select the operation on the input field)
+                Creation of Dropdown Webpage:
+                    <select> is used to create the dropdown
+                    <option> is used to insert the option on the dropdown 
+                        Note: both select & option tag are paired tag
+                        Syx:
+                            <select>
+                                <option>---</option>
+                                <option>---</option>
+                                <option>---</option>
+                                --------------------
+                            </select>
+                Tag present in form to html element:
+                    <fieldset> is used to group the related information of the input fiels on webpage
+                        Its an paired tag & block level element
+                    <legend> is used to give the name for the fieldset
+                        its paired and inline level element
+                
+                Attributed present in form tag:
+                    >method ("get","post")
+                    >get can send the data to the backend but data is visble in the url, to hide the data we are using post
+                    >action attribute is used to write configured url;
+
+        -->
+
+
+
+    </form>
+    
+    
+</body>
+</html>

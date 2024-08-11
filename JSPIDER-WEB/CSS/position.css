@@ -1,0 +1,15 @@
+body {
+  background-image: url(../IMAGES/M2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  /* position : top left( default) / top right / bottom right / bottom left / top / left / bottom / right / center */
+
+  background-size: cover;
+  /* auto ( default) / contain / cover */
+
+  background-attachment: fixed;
+  /* scroll(default) : both content  & Background Image is scrolling 
+   fixed : Background Image is fixed only contents are scrolling
+   */
+}

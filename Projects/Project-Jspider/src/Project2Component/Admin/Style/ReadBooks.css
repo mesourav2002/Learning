@@ -1,0 +1,124 @@
+.bookss {
+  background-color: #520852;
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.cardd {
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+  background: #ec7ec0;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  gap: 5%;
+}
+
+.booksphoto {
+  border-radius: 10px;
+  height: 90%;
+  width: 30%;
+  background: #39172b;
+}
+.booksphoto img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.all {
+  position: relative;
+  border-radius: 10px;
+  height: 90%;
+  width: 60%;
+  background: #3d5b7a7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all .readtitle {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 15%;
+  color: rgb(2, 43, 243);
+}
+
+.shortdesc {
+  font-size: 15px;
+  width: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-height: 20%;
+  margin-bottom: 2%;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: auto;
+  border: none;
+}
+
+.longdesc {
+  font-size: 15px;
+  width: 90%;
+  border: none;
+  font-weight: bold;
+  max-height: 50%;
+  overflow: auto;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.shortdesc p {
+  font-size: 17px;
+  background-color: #76d4c1;
+  text-align: justify;
+  padding: 0 3%;
+  
+}
+.longdesc p {
+  font-size: 17px;
+  background-color: #76d4c1;
+  text-align: justify;
+  padding: 0 3%;
+}
+.hii {
+  color: #520852;
+  position: sticky;
+  top: 0;
+  background-color: rgb(175, 207, 73);
+  padding: 1% 4%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.back {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
+.eye{
+  cursor: pointer;
+}
+.eye:active{
+  color: green;
+}
+.cart{
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}

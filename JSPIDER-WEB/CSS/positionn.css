@@ -1,0 +1,50 @@
+/*
+Position Types...
+
+>static(default)
+>fixed
+>sticky
+>absolute
+>Relative
+
+*/
+
+.container {
+  border: 1px solid black;
+  height: 10rem;
+  width: 20rem;
+  background: yellow;
+  position: fixed;
+  left: 30rem;
+  color: rgb(12, 132, 238);
+}
+.box3 {
+  border: 1px solid black;
+  height: 2rem;
+  border-radius: .3rem;
+  background: rgb(7, 255, 131);
+  position: sticky;
+  top: 0px;
+  
+}
+.box1 {
+  border: 1px solid black;
+  height: 25rem;
+  width: 20rem;
+  background-color: aqua;
+  position: relative;
+  z-index: -1;
+}
+.box2 {
+  border: 1px solid black;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: brown;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  z-index: -1;
+}

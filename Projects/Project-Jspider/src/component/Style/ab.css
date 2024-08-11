@@ -1,0 +1,26 @@
+.users .container {
+  width: 100%;
+  height: 90vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 100% 90vh;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.users .username {
+  color: black;
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 15px;
+  border: 2px solid blue;
+  height: 5vh;
+  width: 30vh;
+  margin: 10px;
+  padding: 3px;
+
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,78 @@
+.shape1 {
+  border: 1rem solid green;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100% 0;
+  background-color: aqua;
+}
+.square {
+  border: 1rem solid none;
+  height: 20rem;
+  width: 20rem;
+  background-color: aqua;
+}
+.circle {
+  border: 1rem solid green;
+  height: 25rem;
+  width: 25rem;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.rect {
+  border: 1rem solid green;
+  height: 20rem;
+  width: 40rem;
+  background-color: aqua;
+}
+.oval {
+  border: 1rem solid green;
+  height: 20rem;
+  width: 35rem;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.trang {
+  width: 0;
+  height: 0;
+  border-left: 10rem solid transparent;
+  border-right: 10rem solid transparent;
+  border-bottom: 20rem solid aqua;
+  border-top: 10rem solid transparent;
+}
+
+.trapezoid {
+  border-bottom: 50px solid aqua;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
+}
+.content {
+  border: 1px solid black;
+  overflow: auto;
+  height: 300px;
+  width: 30%;
+  text-align: justify;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+}
+/*
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+
+
+inline 
+internal 
+external
+
+
+local attribute
+
+
+global attribute
+ex. class id 
+
+
+*/

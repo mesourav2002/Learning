@@ -1,0 +1,6 @@
+Welcome to  Node Js Class :! Stream in Node Js It is as Object that let us read data from a sourse write a destination
+in continious mannerrListening music , Watching Video in real time instead of downloding of Stream in Node js Readable 
+str It will help us to read data from the source Writeable Str We can write the data to destination Duplex Str We can 
+perrform both reading  & writeing Transform Str Similar to Duplex Stream (perrform both reading & writeing) but herre 
+we can modify the datasdThis event will fire wheneverr we have some available data to readThis event is we are using 
+when data is not therre to readerrThis event fired  when their is any errrorfinThis event is used to when data will be finished

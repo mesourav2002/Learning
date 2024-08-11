@@ -1,0 +1,23 @@
+#root {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+  }
+  
+  .container {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+  }
+  .text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }

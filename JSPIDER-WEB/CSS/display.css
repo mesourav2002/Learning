@@ -1,0 +1,103 @@
+body {
+  height: 1000rem;
+}
+.sticky {
+  display: flex;
+  justify-content: center;
+  box-shadow: 1rem 1rem 1rem black;
+  border-radius: 1rem;
+  border: 0.1rem solid none;
+  background-color: aqua;
+  color: blue;
+  font-family: Arial, sans-serif;
+  position: sticky;
+  top: 0;
+}
+a {
+  background-color: aquamarine;
+  display: block;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 1rem auto;
+}
+.box {
+  border: 0.1rem solid none;
+  box-shadow: 0 0 0.3rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+.c1 {
+  background-color: red;
+}
+.c2 {
+  background-color: yellow;
+}
+.c3 {
+  background-color: green;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text {
+  margin-top: 2rem;
+  border: 0.1rem solid black;
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: blue;
+  font-family: Courier;
+  font-size: 2rem;
+}
+.textt {
+  margin-top: 2rem;
+  border: 0.1rem solid black;
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: blue;
+  font-family: Courier;
+  font-size: 2rem;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  width: 18rem;
+  height: 3rem;
+  border: 2px solid blue;
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+/* attribute selector*/
+input[type="submit"] {
+  width: 70%;
+  border: 2px solid blue;
+  border-radius: 2rem;
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+}
+
+.first,
+.second {
+  display: flex;
+}
+.texttt {
+  border: 1px solid black;
+  height: 20rem;
+  width: 20remo;
+}
+
+/*
+The display property specifies the display behavior (the type of rendering box) of an element
+*/

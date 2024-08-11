@@ -1,0 +1,20 @@
+[
+  {
+    "fname": "Sourav",
+    "lname": "Dash",
+    "age": 50,
+    "place": "Goa"
+  },
+  {
+    "fname": "Dinga",
+    "lname": "Raja",
+    "age": 25,
+    "place": "USA"
+  },
+  {
+    "fname": "Dingi",
+    "lname": "Rani",
+    "age": 23,
+    "place": "China"
+  }
+]

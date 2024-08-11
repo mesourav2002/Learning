@@ -1,0 +1,370 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+/* -------------- first 2 nav ----------------------- */
+.nav1,
+.nav2 {
+  border: none;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(48, 151, 151);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav2 {
+  background-color: rgb(156, 156, 156);
+    justify-content: left;
+}
+/* ------------ main container -------------------- */
+.container {
+  height: calc(100% - 80px);
+  border: none;
+  background-color: rgb(205, 205, 205);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* --------------- container-left--------------------- */
+.container-left {
+  border: none;
+  width: 14%;
+  height: 95%;
+  background-color: white;
+  /* box-shadow: 0px 0px 2px black; */
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+.container-left .item {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  gap: 1vw;
+}
+.container-left ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 2vw;
+}
+
+.container-left ul li {
+  border: none;
+  font-size: small;
+  height: 1.5vw;
+  width: 100%;
+  background-color: rgb(239, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(126, 126, 126);
+}
+/* -------------container-right ----------------------- */
+.container-right {
+  width: 84%;
+  border: none;
+  height: 95%;
+  /* background-color: white; */
+  /* box-shadow: 0px 0px 2px black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+/* --------------container-right-top------------------ */
+.container-right-top {
+  border: 1px solid none;
+  width: 99%;
+  height: 50%;
+  background-color: white;
+}
+.container-right-top .nav {
+  border: none;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(85, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+/* -------------container-right-top .contents ------------------- */
+
+.container-right-top .contents {
+  border: none;
+  height: calc(100% - 30px);
+  /* background-color: black; */
+  display: flex;
+}
+/* -------------container-right-top .contents .content1------------------- */
+.container-right-top .contents .content1 {
+  border: none;
+  /* background-color: aqua; */
+  width: 33.33%;
+  display: flex;
+}
+.container-right-top .contents .content1 form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+}
+.container-right-top .contents .content1 form textarea {
+  width: 70%;
+}
+.container-right-top .contents .content1 input {
+  display: block;
+  width: 95%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-bottom: 5%;
+}
+.otherid {
+  width: 90%;
+  display: flex;
+  gap: 30%;
+}
+.otherid span {
+  font-size: smaller;
+}
+
+/* -------------container-right-top .contents .content2------------------- */
+
+.container-right-top .contents .content2 {
+  border: none;
+  /* background-color: blue; */
+  width: 33.33%;
+  font-size: smaller;
+}
+.container-right-top .contents .content2 form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right-top .contents .content2 input,
+label,
+select {
+  display: block;
+  width: 90%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-bottom: 4%;
+}
+.container-right-top .contents .content2 .radios {
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  gap: 2%;
+  padding: 4% 0;
+}
+.container-right-top .contents .content2 .radios .radio {
+  display: flex;
+}
+
+/* -------------container-right-top .contents .content3------------------- */
+
+.container-right-top .contents .content3 {
+  border: none;
+  /* background-color: burlywood; */
+  width: 33.33%;
+}
+.container-right-top .contents .content3 form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+.container-right-top .contents .content3 input {
+  width: 90%;
+  display: block;
+  padding-bottom: 4%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.container-right-top .contents .content3 form .textarea {
+  width: 90%;
+}
+.container-right-top .contents .content3 form div textarea {
+  width: 100%;
+}
+
+/* --------------container-right-buttom---------------- */
+.container-right-buttom {
+  border: none;
+  width: 99%;
+  height: 50%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5%;
+}
+/* -------------container-right-buttom .container1--------- */
+.container-right-buttom .container1 {
+  border: none;
+  height: 98%;
+  width: 69.5%;
+  background-color:white;
+}
+.container-right-buttom .container1 .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 30px;
+  background-color: rgb(83, 182, 182);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container-right-buttom .container1 .contents {
+  border: none;
+  height: calc(100% - 30px);
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+}
+/* -----------container-right-buttom .container1 .content1---------*/
+.container-right-buttom .container1 .content1 {
+  border: none;
+  width: 50%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-right-buttom .container1 .content1  textarea ,select .flex-input  {
+  width: 90%;
+}
+
+.container-right-buttom .container1 .content1 input {
+  display: block;
+
+}
+.flex-input form{
+  display: flex;
+  gap: 5%;
+
+}
+.flex-input form input{
+  width: 14vw;
+  height: 2vw ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+/* -----------container-right-buttom .container1 .content2---------*/
+
+.container-right-buttom .container1 .content2 {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  /* background-color: green; */
+}
+/* ------------.container-right-buttom .container2------------ */
+.container-right-buttom .container2 {
+  border: none;
+  height: 98%;
+  width: 29.5%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------container-right-buttom .container2 .right-buttom1 --------- */
+.container-right-buttom .container2 .right-buttom1 {
+  border: none;
+  background-color: rgb(229, 228, 228);
+  height: 90%;
+  width: 100%;
+}
+.container-right-buttom .container2 .right-buttom1 .nav {
+  border: none;
+  height: 30px;
+  background-color: rgb(83, 182, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.container-right-buttom .container2 .right-buttom1 .contents {
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-buttom1 .contents form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+.right-buttom1 .contents form textarea {
+  width: 90%;
+}
+.right-buttom1 .contents input {
+  width: 90%;
+  display: block;
+  padding-bottom: 5%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+/* -------------container-right-buttom .container2 .right-buttom2------------------ */
+.container-right-buttom .container2 .right-buttom2 {
+  border: none;
+  background-color: rgb(229, 228, 228);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-right-buttom .container2 .right-buttom2 span {
+  background-color: rgb(83, 182, 182);
+  color: white;
+  border: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}

@@ -1,0 +1,445 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* -------- Body  ------- */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+}
+/* ---------- main container background img  ------------ */
+.bg-img {
+  width: 100%;
+  position: relative;
+  height: 45vw;
+}
+.bg-img img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 45vw;
+  opacity: 0.4;
+}
+
+/* --------------- nav bar log in and language ----------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vh;
+}
+.logo {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3vw;
+}
+.login {
+  display: flex;
+  gap: 3vh;
+}
+.login select {
+  background-color: transparent;
+  color: white;
+  padding: 0.5vw 1.5vw;
+  border-radius: 0.3rem;
+}
+.login button {
+  background-color: red;
+  border-radius: 0.4rem;
+  padding: 0.4vw 1.2vw;
+  color: white;
+  border: none;
+}
+/* ------------------------ text on bg-img ----------------------------- */
+.texts {
+  position: absolute;
+  top: 0px;
+  height: 45vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text {
+  text-align: center;
+  width: 45vw;
+  line-height: 4vw;
+}
+.text h1 {
+  font-size: 4vw;
+}
+.text h3 {
+  font-size: 1vw;
+}
+.address {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* ------------------ bg-img input field --------------- */
+.address input {
+  width: 28vw;
+  padding: 0.5vw;
+  border-radius: 0.3vw;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2vw;
+  border: 1px solid;
+}
+.address input::placeholder {
+  padding-left: 1vw;
+  font-size: 1vw;
+}
+
+.address button {
+  width: 13vw;
+  padding: 0.5vw;
+  background-color: red;
+  border-radius: 0.3vw;
+  color: white;
+  font-size: 1.5vw;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+ .line{
+  border:5px solid ;
+  height: 5vw;
+  width: 100%;
+  border-radius: 70% 70% 0 0;
+  border-top-color: #f20a6f;
+  background-image: linear-gradient(rgb(53, 53, 127) , black );
+ }
+
+/* ------------ contents --------------------*/
+.contenhts {
+  height: calc(100% - 45vw);
+  width: 100%;
+}
+h1 {
+  color: white;
+}
+.plantosuit,
+.more-reasons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vw;
+  padding: 0 7vw;
+}
+.contents h1 {
+  padding: 5vw 8vw 1vw;
+  font-family: Arial, sans-serif;
+  font-size: 1.2vw;
+}
+.box,
+.box2 {
+  border: 1px solid none;
+  height: 15rem;
+  width: 20vw;
+  background: linear-gradient(180deg, #b62a67 0%, #210d0e 100%);
+  border-radius: 1rem;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-family: Arial, sans-serif;
+  transition: .5s;
+}
+.box:hover {
+  transform: scale(1.06);
+}
+.box h3,
+.box2 h3 {
+  font-size: 1vw;
+  color: rgb(189, 189, 189);
+  font-family: sans-serif;
+}
+.box2 {
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+.box2 h4 {
+  text-align: end;
+}
+.box2 h4 img {
+  height: 3vw;
+}
+
+/* --------------------------------------------------------------- */
+/* Frequently Asked Questions */
+/*  ---------------------------------------- */
+.questions {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin-left: 8vw;
+  font-size: 0.8vw;
+}
+
+.question {
+  border: 1px solid none;
+  background-color: rgb(45, 45, 45);
+  height: 4vw;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  color: white;
+  font-size: 1.5vw;
+  font-family: Arial, sans-serif;
+}
+.question .plus {
+  font-size: 4vw;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------ */
+/* ----------------- another email input ---------------------*/
+.re-login {
+  margin-left: 8vw;
+  width: 70%;
+  margin-top: 5vw;
+}
+
+.re-login h3 {
+  color: white;
+}
+.relogin-form {
+  margin-top: 1vw;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.relogin-form input {
+  background-color: transparent;
+  width: 47vw;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+.relogin-form button {
+  background-color: red;
+  width: 14vw;
+  font-size: 1.3vw;
+  padding: 1vw;
+  color: white;
+  border-radius: 0.5rem;
+}
+.re-login input::placeholder {
+  padding-left: 1vw;
+  font-size: 1vw;
+}
+input:focus {
+  border: none;
+  transform: scale(1.02);
+}
+/* -------------------------------------------------------------------- */
+
+.footer {
+  margin-top: 2vw;
+  width: 68%;
+  margin-left: 9vw;
+}
+.footer h3 {
+  color: rgb(165, 165, 165);
+  padding: 0.4vw;
+}
+table {
+  border: none;
+  width: 100%;
+  margin-top: 2vw;
+}
+td {
+  padding: 0.5vw;
+}
+a {
+  color: rgb(159, 159, 159);
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
+/* -------------------------------------------- */
+
+/* -------- langueage another---------------- */
+.drop-lang {
+  margin-left: 9.5vw;
+  margin-top: 4vw;
+}
+.drop-lang select {
+  width: 6vw;
+  height: 2vw;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+}
+.drop-lang h4 {
+  color: rgb(127, 122, 122);
+  margin-top: 2vw;
+  padding-bottom: 4vw;
+}
+
+/* ------------- Responsive ---------------- */
+@media screen and (max-width: 400px) {
+  .contenhts {
+    height: calc(100% - 45vw);
+    width: 100%;
+  }
+  h1 {
+    color: white;
+  }
+  .plantosuit,
+  .more-reasons {
+    display: block;
+  }
+  .contents h1 {
+    padding: 5vw 8vw 1vw;
+    font-family: Arial, sans-serif;
+    font-size: 3vw;
+  }
+  .box,
+  .box2 {
+    border: none;
+    height: 5rem;
+    width: 100%;
+    background: linear-gradient(180deg, #b62a67 0%, #210d0e 100%);
+    border-radius: 0.6rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 3vw;
+  }
+  .box:hover {
+    transform: scale(1.06);
+  }
+  .box h3,
+  .box2 h3 {
+    font-size: 3vw;
+    color: rgb(189, 189, 189);
+    font-family: sans-serif;
+  }
+  .box2 {
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  }
+  .box2 h4 {
+    text-align: end;
+  }
+  .box2 h4 img {
+    height: 6vw;
+  }
+  .box h2,
+  .box2 h2 {
+    font-size: 4vw;
+  }
+
+  /*  --------------question--------------------------- */
+  .questions {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin: 8vw;
+    font-size: 2.5vw;
+  }
+
+  .question {
+    border: 1px solid none;
+    background-color: rgb(45, 45, 45);
+    height: 10vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    color: white;
+    font-size: 4vw;
+    font-family: Arial, sans-serif;
+  }
+
+  /* --------------------------------------------------------- */
+  .re-login {
+    margin-right: 8vw;
+    width: 80%;
+    margin-top: 5vw;
+  }
+
+  .re-login h3 {
+    color: white;
+    width: 80%;
+    font-size: 5vw;
+  }
+  .relogin-form {
+    margin-top: 3vw;
+    width: 100%;
+  }
+  .relogin-form input {
+    background-color: transparent;
+    width: 52vw;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+  }
+  .relogin-form button {
+    background-color: red;
+    width: 27vw;
+    font-size: 3.9vw;
+    padding: 1vw;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  .re-login input::placeholder {
+    padding-left: 4vw;
+    font-size: 4vw;
+  }
+
+  /* ----------------------------------------- */
+  .footer {
+    margin-top: 4vw;
+    width: 90%;
+    margin: 3vw;
+  }
+  .footer h3 {
+    color: rgb(165, 165, 165);
+    padding: 1vw;
+  }
+  table {
+    border: none;
+    width: 100%;
+    margin-top: 2vw;
+  }
+  td {
+    padding: 1vw;
+    width: 20%;
+    height: 4vw;
+  }
+  a {
+    color: rgb(159, 159, 159);
+    font-size: 3.2vw;
+    font-family: sans-serif;
+  }
+  /* --------------------- */
+  .drop-lang {
+  margin-left: 9.5vw;
+  margin-top: 4vw;
+}
+.drop-lang select {
+  width: 25vw;
+  height: 6vw;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+}
+.drop-lang h4 {
+  color: rgb(127, 122, 122);
+  margin-top: 4vw;
+  padding-bottom: 4vw;
+}
+}

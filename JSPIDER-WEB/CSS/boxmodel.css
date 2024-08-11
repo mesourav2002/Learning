@@ -1,0 +1,56 @@
+body {
+  height: 1000rem;
+}
+.box {
+  display: flex;
+}
+.box1 {
+  border: 0.1rem solid red;
+  height: 15rem;
+  width: 15rem;
+  background-color: aqua;
+  margin: 8rem 7rem;
+}
+.box2 {
+  border: 0.1rem solid red;
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(255, 187, 0);
+  margin: 8rem 7rem;
+}
+.sticky {
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 1rem 1rem 1rem black; */
+  border-radius: 1rem;
+  border: 0.1rem solid none;
+  background-color: aqua;
+  color: blue;
+  font-family: Arial, sans-serif;
+  position: sticky;
+  top: 0;
+}
+/*
+
+!Margin Properties :
+
+Margin properties is used to move the container from one place to another place .
+( It affe,cts the outside the boarder)
+
+
+padding properties : 
+
+Padding properties is used to give space b/w the contents  & the boarder 
+
+( it effects inside the boarder ( space b/w content and boarder)
+
+
+NOTE :- 
+
+-> Margin and Padding properties are hidden / invisible contents on the webpages 
+
+-> Two properties ( margin & padding ) are separate with the boarder properties 
+
+-> when we are using padding properties its effects to the original size of the container  / HTMl element 
+
+*/

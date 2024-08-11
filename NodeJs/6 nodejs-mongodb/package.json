@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "mongodb_operation",
+  "main": "Mango.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sourav",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.7.0"
+  }
+}
+

@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+  font-size: 30px;
+  background: linear-gradient(lightgreen, yellow);
+  margin-bottom: 30px;
+}
+button {
+  margin: 10px;
+  width: 60vh;
+  height: 10vh;
+}
+

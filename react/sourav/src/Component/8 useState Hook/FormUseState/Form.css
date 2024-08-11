@@ -1,0 +1,39 @@
+.header {
+  font-size: 3vh;
+  font-weight: bold;
+  /* text-align: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(lightgreen, rgb(204, 202, 202));
+}
+
+.formcontrol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+input {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+form {
+  background: linear-gradient(lightgreen, yellow);
+  border: 1px solid black;
+  padding: 5vh;
+  text-align: center;
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+h1{
+    color: rgb(255, 0, 0);
+}

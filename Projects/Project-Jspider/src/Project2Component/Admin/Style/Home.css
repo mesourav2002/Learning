@@ -1,0 +1,31 @@
+
+.library-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .book-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .book {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

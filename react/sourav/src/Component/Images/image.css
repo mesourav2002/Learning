@@ -1,0 +1,32 @@
+.heading {
+  font-size: 2rem;
+  border: 1px solid none;
+  /* background: linear-gradient(orange, white, green); */
+  text-align: center;
+  font-family: cursive;
+  color: orange;
+  font-weight: 800;
+  animation: rotate 7s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    background: linear-gradient(90deg, orange, white, green);
+  }
+  50% {
+    background: linear-gradient(90deg, green, white, orange);
+  }
+  100% {
+    background: linear-gradient(90deg, orange, white, green);
+  }
+  /* 0% {
+    background: yellow;
+  } */
+  
+  /* 50% {
+    background-color: green;
+  }
+  100%{
+    background-color: yellow;
+  } */
+}
